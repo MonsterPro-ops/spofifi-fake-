@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="someMusic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>        
+<header>
+    <h2>Music for you</h2>
+</header>
+<div class="popularArtists">
+
+    <div class="artist-card">
+        <div class="artist-image">
+            <img src="anh/đừng làm trái tim anh đau.jpeg" alt="Đừng làm trái tim anh đau">
+            <button style="all: unset;" onclick="toggleMusic('myAudio1', 'play1', 'pause1')">             
+                <i id="play1" class="fa-solid fa-circle-play play-icon"></i>
+            </button>
+            <button style="all: unset;" onclick="toggleMusic('myAudio1', 'play1', 'pause1')">
+                <i id="pause1" class="fa-solid fa-pause pause-icon" style="color: #00ff6e;"></i>
+            </button>
+            <audio id="myAudio1">
+                <source src="anh/y2mate.com - SƠN TÙNG MTP  ĐỪNG LÀM TRÁI TIM ANH ĐAU  OFFICIAL MUSIC VIDEO.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="artist-info">
+            <div class="artist-name">Đừng làm trái tim anh đau</div>
+        </div>
+    </div>
+
+    <div class="artist-card">
+        <div class="artist-image">
+            <img src="anh/Sơn_Tùng_M-TP_-_Chúng_ta_của_tương_lai.png" alt="Chúng ta của tương lai">
+            <button style="all: unset;" onclick="toggleMusic('myAudio2', 'play2', 'pause2')">             
+                <i id="play2" class="fa-solid fa-circle-play play-icon"></i>
+            </button>
+            <button style="all: unset;" onclick="toggleMusic('myAudio2', 'play2', 'pause2')">
+                <i id="pause2" class="fa-solid fa-pause pause-icon" style="color: #00ff6e;"></i>
+            </button>
+            <audio id="myAudio2">
+                <source src="anh/y2mate.com - youtube video zoEtcR5EW08.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="artist-info">
+            <div class="artist-name">Chúng ta của tương lai</div>
+        </div>
+    </div>
+
+    <div class="artist-card">
+        <div class="artist-image">
+            <img src="anh/ab67616d0000b273f2247e7271ee0ecd57d96f62.jpeg" alt="Dù cho tận thế">
+            <button style="all: unset;" onclick="toggleMusic('myAudio3', 'play3', 'pause3')">             
+                <i id="play3" class="fa-solid fa-circle-play play-icon"></i>
+            </button>
+            <button style="all: unset;" onclick="toggleMusic('myAudio3', 'play3', 'pause3')">
+                <i id="pause3" class="fa-solid fa-pause pause-icon" style="color: #00ff6e;"></i>
+            </button>
+            <audio id="myAudio3">
+                <source src="anh/y2mate.com - ERIK  Dù cho tận thế vẫn yêu em  Official MV  Valentine 2025.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="artist-info">
+            <div class="artist-name">Dù cho tận thế vẫn yêu em</div>
+        </div>
+    </div>
+
+    <div class="artist-card">
+        <div class="artist-image">
+            <img src="anh/ab67616d00001e028863bc11d2aa12b54f5aeb36.jpeg" alt="blinding lights">
+            <button style="all: unset;" onclick="toggleMusic('myAudio4', 'play4', 'pause4')">             
+                <i id="play4" class="fa-solid fa-circle-play play-icon"></i>
+            </button>
+            <button style="all: unset;" onclick="toggleMusic('myAudio4', 'play4', 'pause4')">
+                <i id="pause4" class="fa-solid fa-pause pause-icon" style="color: #00ff6e;"></i>
+            </button>
+            <audio id="myAudio4">
+                <source src="anh/y2mate.com - The Weeknd  Blinding Lights Official Audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="artist-info">
+            <div class="artist-name">Blinding lights</div>
+        </div>
+    </div>
+
+</div>  
+<script src="someMusic.js"></script>
+</body>
+</html>

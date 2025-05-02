@@ -1,0 +1,79 @@
+body {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+  background: #121212;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+}
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 24px;
+}
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.phone-link {
+  color: #1DB954;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px;
+}
+.next-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1DB954;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.or {
+  margin: 20px 0;
+  font-size: 14px;
+}
+.social-btn {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.google { background-color: #fff; color: #000; }
+.facebook { background-color: #1877F2; color: #fff; }
+.apple { background-color: #000; color: #fff; border: 1px solid #fff; }
+.login {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.login a {
+  color: #1DB954;
+}
+.container img{
+  height: 70px;
+  width: 70px;
+ }

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #000;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+}
+.logo{
+    margin-left: 30px;
+    display: flex;
+}
+.logo i{
+    font-size: 35px;
+}
+.logo a{
+    color: #1db954;
+}
+.search h1{
+    color:#1db954 ;
+    font-size: 5vh;
+}
+.log-in--sign-up {
+    margin-right: 8px;
+}
+
+.log-in--sign-up button.sign-up {
+    height: 4vh;
+    width: 9vh;
+    border: none;
+    font-size: 17px;
+    margin-right: 20px;
+    background-color: #000000;
+}
+
+.log-in--sign-up button.sign-up a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.log-in--sign-up button.sign-up:hover, 
+.log-in--sign-up button.sign-up a:hover {
+    transform: translate(0, -2px);
+    color: rgba(255, 255, 255, 0.241);
+}
+
+.log-in--sign-up button.log-in {
+    height: 7vh;
+    width: 15vh;
+    border-radius: 28px;
+    border: none;
+    font-size: 17px;
+}
+.log-in--sign-up button.log-in a {
+    color: rgb(18, 18, 18);
+    text-decoration: transparent;
+    padding: 14px;
+}
+
+.log-in--sign-up button.log-in:hover, 
+.log-in--sign-up button.log-in a:hover {
+    background-color: rgba(255, 255, 255, 0.822);
+    transform: translate(0, -2px);
+}
+
+iframe {
+    border: none;
+    border-radius: 9px;
+}
+.tim-kiem{
+    margin-left: 15px;
+    padding: 15px;
+    width: 300%;
+    height: 30px;
+    line-height: 9vh;
+    border-radius: 15px;
+   }

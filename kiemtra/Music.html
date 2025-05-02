@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Music.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>Music</h3>
+        </nav>
+    </header>
+    
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+            <img src="anh/đừng làm trái tim anh đau.jpeg" alt="">
+            <h5>Đừng làm trái tim anh đau
+                <div class="subtitle">Sơn Tùng M-TP</div>
+            </h5>
+            <i class="fa-solid playlistPlay fa-play" id="1"></i>
+        </li>
+        <li class="song-item">
+            <span>01</span>
+            <img src="anh/nước mắt cá sấu.jpeg" alt="">
+            <h5>
+                Nước mắt cá sấu
+                <div class="subtitle">HIEUTHUHAI</div>
+            </h5>
+            <i class="fa-solid playlistPlay fa-play" id="1"></i>
+        </li>
+
+        <li class="song-item">
+            <span>01</span>
+            <img src="anh/dữ liệu quý.jpg" alt="">
+            <h5>Dữ liệu quý
+                <div class="subtitle">Dương Domic</div>
+            </h5>
+            <i class="fa-solid playlistPlay fa-play" id="1"></i>
+        </li>
+        
+        <div class="content">
+            <h1>Sơn Tùng M-TP</h1>
+            <p>Dừng làm trái tim anh đau</p>
+          
+            <footer>
+              <div class="music_bar">
+                <span id="current-start">0:00</span>
+                <div class="bar">
+                  <input type="range" id="seek" min="0" max="100">
+                  <div class="bar2" id="bar2"></div>
+                  <div class="dot"></div>
+                </div>
+                <span id="current-end">0:30</span>
+              </div>
+          
+              <div class="icon">
+                <i class="fa-solid shuffle fa-music" data-mode="next"></i>
+                <i class="fa-solid fa-backward-step" id="back"></i>
+                <i class="fa-solid fa-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+              </div>
+
+              <div class="vol">
+                <i class="fa-solid fa-volume-high" id="vol-icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="dot" id="vol-dot"></div>
+                <div class="vol-bar"></div>
+              </div>
+
+            </footer>
+          </div>
+    </div>
+</body>
+</html>

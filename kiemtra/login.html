@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div id="register-form" style="display: none;">
+        <img src="anh/spotify-ung-dung-nghe-nhac-am-thanh-chat-luong-cao-logo-19-05-2020.png" alt="#">
+        <h1>Sign up to start listening</h1>
+        <form id="register">
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" placeholder="Nhập email" required><br>
+            <label for="register-password">Mật khẩu:</label>
+            <input type="password" id="register-password" placeholder="Nhập mật khẩu" required><br>
+            <label for="confirm-password">Xác nhận mật khẩu:</label>
+            <input type="password" id="confirm-password" placeholder="Nhập lại mật khẩu" required><br>
+            <button type="submit" class="next-btn">Next</button>
+        </form>
+
+        <a href="#" class="phone-link">Use phone number instead.</a>
+
+        <div class="or">or</div>
+        <button class="social-btn google">Sign up with Google</button>
+        <button class="social-btn facebook">Sign up with Facebook</button>
+        <button class="social-btn apple">Sign up with Apple</button>
+        <p class="login">Already have an account? <a href="#" id="show-login">Log in here.</a></p>
+    </div>
+
+
+
+
+
+    <div id="login-form" >
+    <form id="login">
+      <img src="anh/spotify-ung-dung-nghe-nhac-am-thanh-chat-luong-cao-logo-19-05-2020.png" alt="#" class="logo">
+      <h1>Log in to Spotifi</h1>
+      <button class="social-btn google">Continue with Google</button>
+      <button class="social-btn facebook">Continue with Facebook</button>
+      <button class="social-btn apple">Continue with Apple</button>
+      <button class="social-btn phoneNumber">Continue with phone number</button>
+
+
+      <label for="login-email">Email:</label>
+      <input type="email" id="login-email" placeholder="Nhập email" required><br>
+      <label for="login-password">Mật khẩu:</label>
+      <input type="password" id="login-password" placeholder="Nhập mật khẩu" required><br>
+
+      <a href="#" class="phone-link">Use phone number instead.</a>
+      <button type="submit"  class="next-btn">Continue</button>
+      <p class="login">Don't have an account? <a id="show-register" href="#">Sign up for Spotify Fake</a></p>
+      </form>
+    </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

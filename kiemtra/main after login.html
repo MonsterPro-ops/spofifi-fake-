@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+    <script src="https://cdn.botpress.cloud/webchat/v2.4/inject.js"></script>
+<script src="https://files.bpcontent.cloud/2025/04/26/12/20250426123403-7UTRB92O.js"></script>
+    
+    
+    
+    <div class="main">
+        <header>
+            <div class="logo">
+                <a href="#"><i class="fa-brands fa-spotify"></i></a>
+                <div>
+                    <input class="tim-kiem" type="text" id="search" placeholder="Tìm kiếm bản nhạc bạn thích!!!" required>
+                </div>
+            </div> 
+            <div class="search">
+                <h1>Spotify</h1>
+            </div>
+            <div class="log-in--sign-up">
+                <img height="70px" width="70px" src="anh/264652.png" alt="#">
+            </div>
+        </header>
+        <iframe src="Music.html" width="25%" height="700"></iframe>
+        <iframe id="musicframe" src="someMusic.html" width="74%" height="700"></iframe>
+    </div>
+    <script src="./script.js"></script>
+    <script>
+        function search(){
+            let tim_kiem =  document.getElementById("search").value.toLowerCase()
+            let iframe = document.getElementById('musicframe')
+            if (iframe && iframe.contentWindow && iframe.contentWindow.timKiemNhac){
+                iframe.contentWindow.timKiemNhac(tim_kiem)
+
+            }
+        
+        }
+
+
+        document.getElementById("search").addEventListener("keydown", function(e){
+            if(e.key === "Enter"){
+                e.preventDefault()
+                search()
+            }
+        })
+
+
+    </script>
+</body>
+</html>
